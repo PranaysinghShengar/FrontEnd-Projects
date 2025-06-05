@@ -1,0 +1,271 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.header {
+    background-image: url('img/yoga-header.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.header p {
+    color: white;
+    font-size: 20px;
+}
+
+.header .btn {
+    background-color: palevioletred;
+    color: black;
+    font-weight: bolder;
+}
+
+.header .btn:hover {
+    background-color: #d81b60;
+    color: white;
+}
+
+.header img {
+    padding-bottom: 150px;
+}
+
+.btn-primary {
+    background-color: #d81b60; /* Customize button color */
+    border: none;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.feature-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.natural h1 {
+    color: #6f42c1;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.yoga-header {
+    color: #6f42c1;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.yoga-text {
+    color: #343a40;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    color: #6f42c1;
+    margin-right: 10px;
+}
+
+.card {
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.class-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.class-box img {
+    width: 100%;
+    max-width: 200px; /* Adjust according to your preference */
+}
+
+.text-purple {
+    color: #6f42c1;
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+.btn-primary:hover {
+    background-color: #5a34a5;
+    border-color: #5a34a5;
+}
+
+.trainer-card {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.trainer-name {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.trainer-role {
+    color: #a7a8aa;
+}
+h2 {
+    color: #6f42c1;
+    margin-bottom: 20px;
+}
+p {
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    background-color: #6f42c1; /* Purple color */
+    border-color: #6f42c1;
+}
+
+.bg-purple {
+    background-color: #6f42c1; /* Purple color */
+}
+
+.about h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.about {
+    height: 115vh;
+    background-color: #dbd9df;
+}
+
+.advantage h1 {
+    font-weight: bolder;
+    color: #6f42c1;
+    font-size: 40px;
+}
+
+.card:hover {
+    background-color: pink;
+    transition: 0.3s ease-in-out;
+}
+
+.classes h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #6f42c1;
+    padding-top: 100px;
+}
+
+.classes {
+    background-color: #dbd9df;
+    padding-bottom: 100px;
+}
+
+.class-box:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.form h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.contact {
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.weekend {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.weekend p {
+    color: white;
+}
+
+.trainers {
+    background-color:  #dbd9df;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.trainers h2 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+label {
+    color: white;
+}
+
+.query .btn {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+}
+
+.query .btn:hover {
+    background-color: #d81b60;
+    color: white;
+}
+
+.foot p {
+    color: white;
+}
+
+.natural p {
+    color: white;
+}
+
+.natural h3 {
+    color: #6f42c1;
+}
