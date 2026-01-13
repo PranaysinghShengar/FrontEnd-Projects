@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home, #about, #menu, #testimonial,
+#gallery, #contact {
+    width: 100%;
+    background-color: rgb(48, 10, 10);
+}
+
+.navbar {
+    background-color: chocolate;
+}
+
+.navbar button {
+    border: 2px solid black;
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    margin-left: 30%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link {
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgb(48, 10, 10);
+    border-radius: 40px;
+    color: white;
+}
+
+.h1, .h2 {
+  background-color: rgb(48, 10, 10);
+}
+
+.h1 h1 {
+    color: chocolate;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+    padding-top: 30%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.h1 h4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.h1 p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: white;
+}
+
+.homecont button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 20px;
+    border: 2px solid white;
+    background-color: rgb(48, 10, 10);
+    color: white;
+    transition: 0.3s;
+}
+
+.h1 button:hover {
+    background-color: chocolate;
+    color: black;
+    border: 2px solid chocolate;
+}
+
+.h2 img {
+    margin-top: 100px;
+    height: 70vh;
+    width: 100%;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: chocolate;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.a2 p {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-cont {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#menu h2 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: chocolate;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.m1, .m2, .m3,
+.m4, .m5, .m6 {
+    background-color: rgb(48, 10, 10);
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    border: none;
+}
+
+.menucont {
+    width: 100%;
+}
+
+.menucont h5 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menucont p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#testimonial h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: chocolate;
+    font-weight: bolder;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.testimonial-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .testimonial-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 1rem;
+      padding: 20px 0;
+    }
+    .testimonial-card {
+      flex: 0 0 auto;
+      width: 400px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: left;
+    }
+    .testimonial-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid chocolate;
+    }
+    .user-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .testimonial-card h6 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .testimonial-card p {
+      font-size: 18px;
+      font-style: italic;
+    }
+
+#gallery h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    color: chocolate;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.gallery-container .card {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(48, 10, 10);
+    border: none;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.gallery .card img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.contact-section {
+      padding: 80px 0;
+      color: white;
+    }
+    .contact-box {
+      background: url(images/gallery-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px;
+      border-radius: 15px;
+      border: 2px solid white;
+    }
+
+    .btn-coffee {
+      background-color: rgb(48, 10, 10);
+      border: 2px solid white;
+      color: white;
+      border-radius: 30px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+    .btn-coffee:hover {
+      background-color: chocolate;
+      color: black;
+      border: 2px solid chocolate;
+    }
+
+    #contact h2 {
+        text-align: center;
+        padding-top: 90px;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: cursive;
+        color: chocolate;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.747);
+        color: black;
+    }
+
+    .footer {
+      background-color: chocolate;
+      color: black;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .footer a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+    .footer .social-icons a {
+      margin-right: 15px;
+      font-size: 18px;
+    }
+    .footer .logo {
+      font-size: 40px;
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer h5 {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+
+    .foot-contact p {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
