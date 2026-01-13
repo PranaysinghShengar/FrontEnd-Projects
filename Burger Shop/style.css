@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+      background: url(Images/hero-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+.menu-card img {
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid blue;
+    }
+    .footer {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+    }
+    .testimonial-card {
+      background: #fff;
+      border: 2px solid white;
+      padding: 20px;
+      border-radius: 10px;
+      height: 100%;
+    }
+
+    .testimonial-card img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid blue;
+    }
+
+body {
+    background-color: blue;
+}
+
+.nav-link {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+}
+
+.hero .container img {
+  height: 300px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.hero .container .btn {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.hero .container .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+#about img {
+  height: 400px;
+  width: 400px;
+}
+
+#about, #gallery, #menu, #testimonials,
+#order, #reservation, #contact {
+  background: url(Images/hero-1.jpg);
+  background-size: cover;
+}
+
+#about h2, #gallery h2, #menu h2, #testimonials h2, #order h2,
+#reservation h2, #contact h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.lead {
+  color: white;
+}
+
+#gallery img {
+  height: 350px;
+  width: 350px;
+  border: 2px solid white;
+}
+
+.menu-card {
+  border: 2px solid blue;
+}
+
+#testimonials small {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#order .btn {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#order .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+#order input, #reservation input, #contact input, #contact textarea {
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.choice option {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+
+#reservation .btn {
+   background-color: blue;
+  color: white;
+  border: 2px solid white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#reservation .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+#contact .btn {
+   background-color: blue;
+  color: white;
+  border: 2px solid white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#contact .btn:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: bolder;
+}
